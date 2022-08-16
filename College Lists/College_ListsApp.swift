@@ -6,12 +6,28 @@
 //
 
 import SwiftUI
-
+ 
 @main
 struct College_ListsApp: App {
+    
+    @StateObject private var vm = LocationsViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TabView {
+                LocationsView()
+                    .environmentObject(vm)
+                    .tabItem {
+                        Image(systemName: "magnifyingglass")
+                        Text("Explore")
+                    }
+                    TipsView()
+                    .tabItem {
+                        Image(systemName: "info.circle.fill")
+                        Text("About")
+                        
+                    }
+            }
         }
     }
 }

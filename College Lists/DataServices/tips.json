@@ -1,0 +1,58 @@
+[
+	{
+		"text": "About Spot my College",
+        "children": [
+            {
+                "text": "Spot my College is a free iOS application, developed by Jishan Kharbanda, to help high school students in their college research by presenting them with valuable information and statistics about many of the top US colleges and universities."
+            }
+        ]
+	},
+	{
+		"text": "How to Navigate",
+        "children": [
+            {
+                "text": "There are two main ways you can navigate through the Spot my College app. The first way is to use the \"Next/Back\" buttons to view different schools and their location. The second way is to use the drop-down menu at the top of the screen to select a school of your choice."
+            }
+        ]
+	},
+        {
+        "text": "What is the \"Learn More\" feature?",
+        "children": [
+            {
+                "text": "The \"Learn More\" feature allows users to explore more in-depth about a certain college/university, including admission statistics, popular majors, a brief description of the school, helpful links pertinent to the school, and much more!"
+            }
+        ]
+    },
+	{
+		"text": "About the Developer",
+        "children": [
+            {
+                "text": "Jishan is a senior at BASIS Independent Silicon Valley. He is passionate about computer science and its applications in our day-to-day livelihoods. With more than 3+ years of experience with programming, Jishan loves to put his skills in Computer Science and programming to a good cause and thus he decided to develop and publish this iOS application to help out other high school students with their college research. In his free time, Jishan enjoys making tutorial videos for his tech-based YouTube channel and also likes to podcast about high school life and the college admission process."
+            }
+        ]
+	},
+	{
+		"text": "Data and Privacy",
+        "children": [
+            {
+                "text": "The app does not collect any data from you and any search result(s) are wiped after every session."
+            }
+        ]
+	},
+	{
+		"text": "Credits and Attribution",
+        "children": [
+            {
+                "text": "College Scorecard: https://collegescorecard.ed.gov/ \n\nImage Credits: https://bit.ly/WikiImageCredits \n\nCredit has been given to the authors/schools/artists of all data presented in this app. Any omission of credit to an author/school/artist is purely unintentional and should not be construed as plagiarism or literary theft."
+            }
+        ]
+	},
+	{
+		"text": "Disclaimer",
+        "children": [
+            {
+                "text": "This app is meant solely for personal use. This app is designed for informational and research purposes only and is not intended to replace other methods of research. Do not use this app as a substitute for attending college visits, contacting colleges, and/or consulting with professional college consultants. This app is primarily designed for high school students in the US who are planning to apply to college as first-time college freshmen. The numbers and all other relevant data may not be accurate or up-to-date at all times. You are responsible for conducting your own research and confirming all data shown in this app through other sources."
+            }
+        ]
+	}
+]

@@ -7,18 +7,44 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9312479428A48A7100F01CB8 /* LocationPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312479328A48A7100F01CB8 /* LocationPreviewView.swift */; };
+		9312479628A4B6D200F01CB8 /* LocationMapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9312479528A4B6D200F01CB8 /* LocationMapAnnotationView.swift */; };
+		9393DA3628A4DB4C00BDBF89 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9393DA3528A4DB4C00BDBF89 /* LocationDetailView.swift */; };
+		93C0F9AC28A5C95600865C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93C0F9AB28A5C95600865C88 /* Assets.xcassets */; };
+		93C0F9AE28A5D58300865C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93C0F9AD28A5D58300865C88 /* LaunchScreen.storyboard */; };
+		93C0F9B228A6C6F800865C88 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C0F9B128A6C6F800865C88 /* TipsView.swift */; };
+		93C0F9B428A6C73200865C88 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C0F9B328A6C73200865C88 /* Tip.swift */; };
+		93C0F9B628A6C76A00865C88 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = 93C0F9B528A6C76A00865C88 /* tips.json */; };
 		93D9EA5B28A2BC990027E3A8 /* College_ListsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA5A28A2BC990027E3A8 /* College_ListsApp.swift */; };
 		93D9EA5D28A2BC990027E3A8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA5C28A2BC990027E3A8 /* ContentView.swift */; };
-		93D9EA5F28A2BC9A0027E3A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D9EA5E28A2BC9A0027E3A8 /* Assets.xcassets */; };
 		93D9EA6228A2BC9A0027E3A8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D9EA6128A2BC9A0027E3A8 /* Preview Assets.xcassets */; };
+		93D9EA6E28A2BD1F0027E3A8 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA6D28A2BD1F0027E3A8 /* Location.swift */; };
+		93D9EA7128A2BE250027E3A8 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA7028A2BE250027E3A8 /* LocationsDataService.swift */; };
+		93D9EA7328A2C1B10027E3A8 /* LocationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA7228A2C1B10027E3A8 /* LocationsView.swift */; };
+		93D9EA7528A2C7F60027E3A8 /* LocationsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA7428A2C7F60027E3A8 /* LocationsViewModel.swift */; };
+		93D9EA7728A3390A0027E3A8 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D9EA7628A3390A0027E3A8 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9312479328A48A7100F01CB8 /* LocationPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPreviewView.swift; sourceTree = "<group>"; };
+		9312479528A4B6D200F01CB8 /* LocationMapAnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapAnnotationView.swift; sourceTree = "<group>"; };
+		9393DA3528A4DB4C00BDBF89 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		93C0F9A428A59C6500865C88 /* College-Lists-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "College-Lists-Info.plist"; sourceTree = SOURCE_ROOT; };
+		93C0F9AB28A5C95600865C88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93C0F9AD28A5D58300865C88 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93C0F9B128A6C6F800865C88 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
+		93C0F9B328A6C73200865C88 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		93C0F9B528A6C76A00865C88 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
 		93D9EA5728A2BC990027E3A8 /* College Lists.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "College Lists.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D9EA5A28A2BC990027E3A8 /* College_ListsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = College_ListsApp.swift; sourceTree = "<group>"; };
 		93D9EA5C28A2BC990027E3A8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		93D9EA5E28A2BC9A0027E3A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D9EA6128A2BC9A0027E3A8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		93D9EA6D28A2BD1F0027E3A8 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		93D9EA7028A2BE250027E3A8 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
+		93D9EA7228A2C1B10027E3A8 /* LocationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsView.swift; sourceTree = "<group>"; };
+		93D9EA7428A2C7F60027E3A8 /* LocationsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsViewModel.swift; sourceTree = "<group>"; };
+		93D9EA7628A3390A0027E3A8 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		93E3F4D228AB0B5E00D99F63 /* College Lists.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "College Lists.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +77,14 @@
 		93D9EA5928A2BC990027E3A8 /* College Lists */ = {
 			isa = PBXGroup;
 			children = (
+				93E3F4D228AB0B5E00D99F63 /* College Lists.entitlements */,
+				93C0F9A428A59C6500865C88 /* College-Lists-Info.plist */,
 				93D9EA5A28A2BC990027E3A8 /* College_ListsApp.swift */,
 				93D9EA5C28A2BC990027E3A8 /* ContentView.swift */,
-				93D9EA5E28A2BC9A0027E3A8 /* Assets.xcassets */,
+				93D9EA6F28A2BE0F0027E3A8 /* DataServices */,
+				93D9EA6B28A2BCEE0027E3A8 /* Views */,
+				93D9EA6C28A2BCF80027E3A8 /* ViewModels */,
+				93D9EA6A28A2BCE40027E3A8 /* Models */,
 				93D9EA6028A2BC9A0027E3A8 /* Preview Content */,
 			);
 			path = "College Lists";
@@ -65,6 +96,47 @@
 				93D9EA6128A2BC9A0027E3A8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		93D9EA6A28A2BCE40027E3A8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				93D9EA6D28A2BD1F0027E3A8 /* Location.swift */,
+				93C0F9AB28A5C95600865C88 /* Assets.xcassets */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93D9EA6B28A2BCEE0027E3A8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				93D9EA7228A2C1B10027E3A8 /* LocationsView.swift */,
+				93D9EA7628A3390A0027E3A8 /* LocationsListView.swift */,
+				9312479328A48A7100F01CB8 /* LocationPreviewView.swift */,
+				9393DA3528A4DB4C00BDBF89 /* LocationDetailView.swift */,
+				9312479528A4B6D200F01CB8 /* LocationMapAnnotationView.swift */,
+				93C0F9B128A6C6F800865C88 /* TipsView.swift */,
+				93C0F9AD28A5D58300865C88 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93D9EA6C28A2BCF80027E3A8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				93D9EA7428A2C7F60027E3A8 /* LocationsViewModel.swift */,
+				93C0F9B328A6C73200865C88 /* Tip.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		93D9EA6F28A2BE0F0027E3A8 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				93D9EA7028A2BE250027E3A8 /* LocationsDataService.swift */,
+				93C0F9B528A6C76A00865C88 /* tips.json */,
+			);
+			path = DataServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +197,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C0F9AE28A5D58300865C88 /* LaunchScreen.storyboard in Resources */,
+				93C0F9B628A6C76A00865C88 /* tips.json in Resources */,
+				93C0F9AC28A5C95600865C88 /* Assets.xcassets in Resources */,
 				93D9EA6228A2BC9A0027E3A8 /* Preview Assets.xcassets in Resources */,
-				93D9EA5F28A2BC9A0027E3A8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +211,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D9EA7128A2BE250027E3A8 /* LocationsDataService.swift in Sources */,
+				9312479628A4B6D200F01CB8 /* LocationMapAnnotationView.swift in Sources */,
+				93D9EA7728A3390A0027E3A8 /* LocationsListView.swift in Sources */,
+				9312479428A48A7100F01CB8 /* LocationPreviewView.swift in Sources */,
+				93D9EA7528A2C7F60027E3A8 /* LocationsViewModel.swift in Sources */,
+				93C0F9B228A6C6F800865C88 /* TipsView.swift in Sources */,
 				93D9EA5D28A2BC990027E3A8 /* ContentView.swift in Sources */,
+				93D9EA7328A2C1B10027E3A8 /* LocationsView.swift in Sources */,
+				93D9EA6E28A2BD1F0027E3A8 /* Location.swift in Sources */,
+				93C0F9B428A6C73200865C88 /* Tip.swift in Sources */,
 				93D9EA5B28A2BC990027E3A8 /* College_ListsApp.swift in Sources */,
+				9393DA3628A4DB4C00BDBF89 /* LocationDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,17 +348,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "College Lists/College Lists.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"College Lists/Preview Content\"";
 				DEVELOPMENT_TEAM = H5Y8K8VRW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College-Lists-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Spot my College";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -282,6 +373,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jishan-Kharbanda.College-Lists";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -293,17 +385,24 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "College Lists/College Lists.entitlements";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 6;
 				DEVELOPMENT_ASSET_PATHS = "\"College Lists/Preview Content\"";
 				DEVELOPMENT_TEAM = H5Y8K8VRW7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "College-Lists-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Spot my College";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -311,6 +410,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "Jishan-Kharbanda.College-Lists";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
