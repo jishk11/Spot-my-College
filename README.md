@@ -2,12 +2,14 @@
 
 **A comprehensive iOS app to help with the college research process.**
 
-> **Note:** *This project was built in 2022 as an end-to-end iOS development initiative. It was previously available on the App Store with 1000+ downloads (v1.1.0).*
+> **Note:** *I built and shipped this app in 2022 while learning Swift. It was previously live on the App Store with 1,000+ downloads.*
 
 <p align="center">
-  <img src="./images/map_view.png" width="240" alt="Map View" />
-  <img src="./images/detail_view.png" width="240" alt="College Detail View" />
-  <img src="./images/search_view.png" width="240" alt="Search View" />
+  <img src="./map_view.png" width="240" alt="Map View" />
+  <img src="./detail_view.png" width="240" alt="College Detail View" />
+  <img src="./search_view.png" width="240" alt="Search View" />
+  <br>
+  <em>Explore Campuses • View Deep-Dive Stats • Seamless Search</em>
 </p>
 
 ## About
@@ -35,12 +37,8 @@ The app provided students with a visual and data-driven way to explore potential
     ```bash
     git clone [https://github.com/jishk11/Spot-my-College.git](https://github.com/jishk11/Spot-my-College.git)
     ```
-2.  Open the project file (Note: The project file is named `College Lists` internally):
+2.  Open the project file in Xcode (Note: The project file is named `College Lists` internally):
     ```bash
     open "College Lists.xcodeproj"
     ```
 3.  Select a simulator (e.g., iPhone 16 Pro) and press **Run (Cmd+R)**.
-
-## App History
-* **Version 1.1.0 (Aug 2022):** Added support for liberal arts colleges and enhanced map detail levels.
-* **Status:** Archived (Previous App Store Release).
