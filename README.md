@@ -5,9 +5,9 @@
 > **Note:** *I built and shipped this app in 2022 while learning Swift. It was previously live on the App Store with 1,000+ downloads.*
 
 <p align="center">
-  <img src="./map_view.png" width="240" alt="Map View" />
-  <img src="./detail_view.png" width="240" alt="College Detail View" />
-  <img src="./search_view.png" width="240" alt="Search View" />
+  <img src="./images/map_view.png" width="240" alt="Map View" />
+  <img src="./images/detail_view.png" width="240" alt="College Detail View" />
+  <img src="./images/search_view.png" width="240" alt="Search View" />
   <br>
   <em>Explore Campuses • View Deep-Dive Stats • Seamless Search</em>
 </p>
