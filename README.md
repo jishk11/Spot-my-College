@@ -5,9 +5,9 @@
 > **Note:** *This project was built in 2022 as an end-to-end iOS development initiative. It was previously available on the App Store with 1000+ downloads (v1.1.0).*
 
 <p align="center">
-  <img src="path/to/screenshot1.png" width="200" alt="Map View" />
-  <img src="path/to/screenshot2.png" width="200" alt="College Detail View" />
-  <img src="path/to/screenshot3.png" width="200" alt="Stats View" />
+  <img src="./images/map_view.png" width="240" alt="Map View" />
+  <img src="./images/detail_view.png" width="240" alt="College Detail View" />
+  <img src="./images/search_view.png" width="240" alt="Search View" />
 </p>
 
 ## About
